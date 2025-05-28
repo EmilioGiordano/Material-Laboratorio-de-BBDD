@@ -1,5 +1,5 @@
 -- Corrijo dominio: Pasó de ('125','250', '500', '750', '1000') a ('125','250', '500', '1000')
--- La consigna de no incluye al 750 en el dominio
+-- La consigna no incluye al 750 en el dominio
 CREATE DOMAIN gramos AS CHAR(4)
 CHECK(
    VALUE IN ('125','250', '500', '1000')
